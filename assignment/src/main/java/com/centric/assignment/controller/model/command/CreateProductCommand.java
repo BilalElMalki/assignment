@@ -10,7 +10,24 @@ public class CreateProductCommand {
     private String brand;
     private List<String> tags;
     private String category;
+    private double price;
+    private int quantity;
 
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
     public String getName() {
         return name;
