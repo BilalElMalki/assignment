@@ -11,6 +11,15 @@ public class CreateProductCommand {
     private List<String> tags;
     private String category;
     private double price;
+    private int quantity;
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 
     public double getPrice() {
         return price;
